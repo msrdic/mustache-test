@@ -22,4 +22,4 @@ main = do
   compiled <- automaticCompile searchSpace templateName
   case compiled of
     Left err -> print err
-    Right template -> print $ substitute template context -- this is where you can start using it
+    Right template -> print $ substitute template context
